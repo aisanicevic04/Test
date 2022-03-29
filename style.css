@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 12vh;
+}
+
+nav > div {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  color: purple;
+  font-size: 28px;
+  margin: 0;
+}
+
+nav a {
+  margin: 16px;
+  text-decoration: none;
+  color: purple;
+}
+
+nav a:hover {
+  color: purple;
+}
+
+.first {
+  flex-grow: 1;
+}
+
+#main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+#main > div {
+  width: 39%;
+  box-sizing: border-box;
+  padding: 48px 0;
+}
+
+#main img {
+  height: 100%;
+}
+
+#mainleft {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#mainleft li {
+  margin: 16px 0;
+}
+
+#mainleft h1 {
+  font-size: 36pt;
+  color: purple;
+}
+
+#mainleft > div {
+  width: 100%;
+}
+
+#footer {
+  height: 10vh;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  box-sizing: border-box;
+}
+
+#footer1 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+#footer1 img {
+  height: 100%;
+}
+
+.aButton {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(204, 204, 204);
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.aButton:hover {
+  background-color: rgb(172, 172, 172);
+}
+
+button {
+  height: 48px;
+  font-size: 14pt;
+  border-radius: 24px;
+  background-color: white;
+  border: 2px solid purple;
+  box-sizing: border-box;
+  padding: 0 32px;
+  margin: 0 8px;
+  color: purple;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}
+
+#button1 {
+  background-color: purple;
+  color: white;
+}
+
+#button1:hover {
+  background-color: purple;
+  border: 2px solid purple;
+}
